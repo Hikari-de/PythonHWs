@@ -7,7 +7,7 @@ def doi_tien(gia, tienkhach):
         soto += tienthua // m
         tienthua %= m
 
-    return so_to
+    return soto
 
 
 gia, tienkhach = map(int, input().split())
